@@ -1,4 +1,4 @@
 # A Pygame game
 
-- Python 3.8.1
+- Python 3
 - venv

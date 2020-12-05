@@ -1,6 +1,6 @@
 # A Pygame game
 
-## Environments:
+## Environment:
 
 - Python 3
 - venv

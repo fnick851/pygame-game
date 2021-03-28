@@ -1,9 +1,8 @@
-
 import pygame
 
 pygame.init()
-caption = pygame.display.set_caption('Python App')
-screen = pygame.display.set_mode([320, 200])  # 窗口大小为640*480
+caption = pygame.display.set_caption('pygame game')
+screen = pygame.display.set_mode([320, 200])  # window size 640*480
 
 img = pygame.transform.scale(pygame.image.load("test.png"), (90, 100))
 rect = img.get_rect().move((115, 30))
@@ -19,4 +18,4 @@ while True:
     screen.blit(img, rect)
 
     pygame.display.update()
-    screen.fill([255, 255, 255])  # 用白色填充窗口
+    screen.fill([255, 255, 255])  # fill window with white

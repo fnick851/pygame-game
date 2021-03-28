@@ -4,7 +4,8 @@ pygame.init()
 caption = pygame.display.set_caption('pygame game')
 screen = pygame.display.set_mode([320, 200])  # window size 640*480
 
-img = pygame.transform.scale(pygame.image.load("test.png"), (90, 100))
+img = pygame.transform.scale(pygame.image.load(
+    "pixelated-computer.png"), (90, 100))
 rect = img.get_rect().move((115, 30))
 
 while True:
